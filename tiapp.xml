@@ -14,8 +14,8 @@
         <target device="android">true</target>
         <target device="blackberry">false</target>
     </deployment-targets>
-    <sdk-version>3.1.0.GA</sdk-version>
-    <id>com.your.bundleid</id>
+    <sdk-version>5.1.1.GA</sdk-version>
+    <id>com.netsmartcompany.alloyslidermenu</id>
     <name>AlloySliderMenu</name>
     <version>1.0</version>
     <publisher>dsefton</publisher>
@@ -30,8 +30,8 @@
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
     <analytics>true</analytics>
-    <guid>67e2afcd-bef9-4f83-9d1d-127630f11140</guid>
-    <property name="ti.ui.defaultunit">system</property>
+    <guid>fc86e4fa-c636-4517-9999-8fa6e0192b85</guid>
+    <property name="ti.ui.defaultunit">dp</property>
     <iphone>
         <orientations device="iphone">
             <orientation>Ti.UI.PORTRAIT</orientation>
@@ -57,7 +57,6 @@
         <theme>default</theme>
     </mobileweb>
     <modules>
-        <module platform="android" version="1.0">ti.physicalSizeCategory</module>
         <module platform="iphone">ti.map</module>
         <module platform="android">ti.map</module>
     </modules>
